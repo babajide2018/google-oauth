@@ -33,8 +33,8 @@ return [
 
     
     'google' => [
-        'client_id' => '337968579926-chdm8gcaifpvc4f2s3m5g7a1q86ft2q3.apps.googleusercontent.com',
-        'client_secret' => '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',
+        'client_id' => '*****-chdm8gcaifpvc4f2s3m5g7a1q86ft2q3.apps.googleusercontent.com', //Hide part of secret key
+        'client_secret' => '*~*****-huo8aUW4l4I3s_hdfQmry5-r0BUg',
         'redirect' => '/auth/google/callback',
     ],
 
