@@ -31,16 +31,11 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
-    'github' => [
-        'client_id' => env('GITHUB_CLIENT_ID'),
-        'client_secret' => env('GITHUB_CLIENT_SECRET'),
-        'redirect' => '/auth/github/callback-url',
-    ],
-
+    
     'google' => [
-        'client_id' => env('GOOGLE_CLIENT_ID'),
-        'client_secret' => env('GOOGLE_CLIENT_SECRET'),
-        'redirect' => env('/auth/google/callback-url'),
+        'client_id' => '337968579926-chdm8gcaifpvc4f2s3m5g7a1q86ft2q3.apps.googleusercontent.com',
+        'client_secret' => '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',
+        'redirect' => '/auth/google/callback',
     ],
 
 ];
